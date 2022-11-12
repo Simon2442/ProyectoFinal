@@ -41,10 +41,11 @@ body {
 }
 
 .ImagenesTrofeos {
-    box-align: left;
+    margin: auto;
     height: auto;
-    width: 30cm;
-    vertical-align: left;
+    width: 50vh;
+    vertical-align:middle;
+
 }
 
 .Informaciontrofeos {
