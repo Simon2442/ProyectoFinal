@@ -37,6 +37,7 @@ body {
     border-style: solid;
     border-color: #4EA351 ;
     padding: 40px;
+    margin-top: -500px;
 }
 
 #PalabraTrofeos {
@@ -91,6 +92,7 @@ body {
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
     font-size: 40px;
     padding: 30px 10px;
+    margin-top: -550px;
 }
 .TiempoNum {
     display: grid;

@@ -31,6 +31,7 @@ body {
     text-align: center;
     padding: 20px;
 }
+
 #ContenidoFifa23 {
     height: auto;
     border-style: solid;
@@ -65,7 +66,7 @@ body {
     background-color: none;
 }
 
-#Contenedor{
+#Contenedor {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -73,24 +74,28 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-#contenido{
+
+#contenido {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     flex-wrap: wrap;
 }
-#contenido div{
+
+#contenido div {
     display: grid;
     place-items: center;
     padding: 10px;
 }
-#actualizacion{
+
+#actualizacion {
     text-align: center;
     color: #fff;
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
     font-size: 40px;
     padding: 30px 10px;
 }
+
 .TiempoNum {
     display: grid;
     place-items: center;
@@ -100,7 +105,8 @@ body {
     width: 100px;
     color: orange;
 }
-.tiempo{
+
+.tiempo {
     display: block;
     padding: 10px;
     text-align: center;

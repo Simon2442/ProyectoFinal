@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JuegoPrueba</title>
-
+    <link rel="stylesheet" href="../Styles/Inicio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
@@ -13,6 +13,15 @@
     <!-- CSS -->
     <!-- efectos visuales -->
     <style>
+        #Nombrepagina {
+            translate: -4px;
+            text-align: center;
+            font: 60 60px 'Pacifico';
+            letter-spacing: -5px;
+            color: white;
+            text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+        }
+
         :root {
             --w: calc(70vw / 6);
             --h: calc(70vh / 4);
@@ -26,7 +35,7 @@
             padding: 0;
             margin: 0;
             -webkit-perspective: 1000;
-            background: blue;
+            background: black;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -83,7 +92,7 @@
             font-size: 130%;
         }
 
-        #Explicación{
+        #Explicación {
             background-color: white;
         }
 
@@ -104,6 +113,10 @@
     <!-- HTML -->
     <!-- estructura visual -->
 
+    <div id="Nombrepagina">
+        <h1><a href="../Views/inicio.html">VideoGames</a></h1>
+    </div>
+
     <div id="tablero">
     </div>
 
@@ -113,7 +126,8 @@
         Nuevo Juego
     </div>
 
-    <h4 id="Explicación">Este juego no fue hecho por mi. Este fue desarrollado por https://www.youtube.com/watch?v=n8ujo9spBR4</h4>
+    <h4 id="Explicación">Este juego no fue hecho por mi. Este fue desarrollado por
+        https://www.youtube.com/watch?v=n8ujo9spBR4</h4>
 
     <!-- JS -->
     <!-- parte lógica -->
@@ -188,7 +202,7 @@
                     let tarjeta2 = document.getElementById("tarjeta" + selecciones[1])
                     tarjeta1.style.transform = "rotateY(0deg)"
                     tarjeta2.style.transform = "rotateY(0deg)"
-                }else{
+                } else {
                     trasera1.style.background = "plum"
                     trasera2.style.background = "plum"
                 }
