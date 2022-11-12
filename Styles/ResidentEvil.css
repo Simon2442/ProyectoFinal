@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+
+#CuentaRegresiva {
+    text-align: center;
+    color: white;
+}
+
+#Nombrepagina {
+    translate: -4px;
+    text-align: center;
+    font: 60 60px 'Pacifico';
+    letter-spacing: -5px;
+    color: #fee;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+}
+
+#Nombrejuego {
+    translate: -4px;
+    text-align: center;
+    font: 60 60px 'Pacifico';
+    color: red;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+#imgResident{
+    text-align: center;
+    padding: 25px;
+}
+#ContenidoResidentEvil {
+    height: auto;
+    border-style: solid;
+    border-color: #809493;
+    padding: 40px;
+}
+
+#PalabraTrofeos {
+    text-align: center;
+    color: #D5316A;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    font-size: 60px;
+}
+
+.ImagenesTrofeos {
+    box-align: left;
+    height: auto;
+    width: 30cm;
+    vertical-align: left;
+}
+
+.Informaciontrofeos {
+    color: #809493;
+    font-weight: normal;
+    text-align: left;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.SubTrofeo {
+    color: red;
+    background-color: none;
+}
+
+#Contenedor{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contenido{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: wrap;
+}
+#contenido div{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+#actualizacion{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    font-size: 40px;
+    padding: 30px 10px;
+}
+.TiempoNum {
+    display: grid;
+    place-items: center;
+    border: solid 5px #8609F5   ;
+    box-shadow: inset 0 0 10px #7623A1, 0 0 10px #7623A1;
+    height: 100px;
+    width: 100px;
+    color: #09F2F5;
+}
+.tiempo{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    color: #E217AE;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

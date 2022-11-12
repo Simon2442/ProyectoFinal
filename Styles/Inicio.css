@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+#BotsesionIni,#BotsesionReg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: black;
+    width: auto;
+    height: auto;
+    float: left;
+    border: 5px solid white;
+    box-shadow: inset 0 0 5px white, inset 0 0 5px white, 0 0 5px blue, 0 0 5px blue;
+    translate: 158vh;
+    font: 15 5vh 'Pacifico';
+    letter-spacing: -3px;
+    color: rebeccapurple;
+    text-shadow: 0 0px 10px, 0 0 1em black, 0 0 0.5em black, 0 0 0.1em black, 0 10px 3px #333;
+}
+
+#Nombrepagina {
+    translate: -4px;
+    text-align: center;
+    font: 60 60px 'Pacifico';
+    letter-spacing: -5px;
+    color: #fee;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+}
+
+#Fifa23,#GodofWar,#TheLastofUs,#ResidentEvil {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    translate: 65px;
+    background-color: violet;
+    width: 8cm;
+    height: 15mm;
+    font-size: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    border: 5px solid #491D47;
+    /*Esta parte es para la estructura de los botones de los juegos*/
+}
+
+#Subtitulquienessomos {
+    translate: -4px;
+    text-align: center;
+    font: 50 50px 'Pacifico';
+    letter-spacing: -5px;
+    color: red;
+    text-shadow: 0 0px 10px, 0 0 1em black, 0 0 0.5em black, 0 0 0.1em black, 0 10px 3px #333;
+}
+
+#Parrafoquienes {
+    border: 4px solid white;
+    box-shadow: inset 0 0 5px magenta, 0 0 5px magenta;
+    max-width: 500px;
+    margin: auto;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px;
+}
+
+#preguntajuegos {
+    text-align: center;
+    color: rgb(111, 0, 255);
+    font: 50 50px 'Pacifico';
+    letter-spacing: -5px;
+    text-shadow: 0 0px 10px, 0 0 1em black, 0 0 0.5em black, 0 0 0.1em black, 0 10px 3px #333;
+}
+
+#Juegoinicio {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    color: black;
+    background-color: white;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    translate: 450px;
+    /*Estructura boton*/
+}
+
+#Juegoinicio:hover {
+    background: aqua;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    transition: 0, 5s;
+}
