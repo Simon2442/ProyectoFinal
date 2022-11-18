@@ -1,29 +1,30 @@
 body {
-    background-color: black;
+    background-color: #ccc39f;
 }
 
-#CuentaRegresiva {
-    text-align: center;
-    color: white;
-}
-
-#Nombrepagina {
+#NombrepaginaT {
     translate: -4px;
     text-align: center;
     font: 60 60px 'Pacifico';
     letter-spacing: -5px;
     color: #fee;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    text-shadow: 0 0px 10px, 0 0 1em wheat, 0 0 0.5em black, 0 0 0.1em black, 0 10px 3px #333;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#LinkNomPagina {
+    color: #285635;
+    text-decoration: none;
 }
 
 #Nombrejuego {
     translate: -4px;
     text-align: center;
     font: 60 60px 'Pacifico';
-    color: #61C14B;
-    text-shadow: 0 0px 10px, 0 0 1em #8E61A5, 0 0 0.5em #8E61A5, 0 0 0.1em #8E61A5, 0 10px 3px #333;
+    color: #576e49;
+    text-shadow: 0 0px 10px, 0 0 1em white, 0 0 0.5em #fee, 0 0 0.1em #fee, 0 10px 3px #222;
     letter-spacing: 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rubik Distressed', cursive;
     font-size: 60px;
 }
 
@@ -35,27 +36,29 @@ body {
 #ContenidoTheLastofUs {
     height: auto;
     border-style: solid;
-    border-color: #4EA351 ;
+    border-color: #4EA351;
     padding: 40px;
-    margin-top: -500px;
+    margin-top: -280px;
 }
 
 #PalabraTrofeos {
     text-align: center;
-    color: #3BAB1D;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    color: #576e49;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em white, 0 0 0.1em #560a86, 0 10px 3px;
     font-size: 60px;
+    margin-top: 15px;
+    font-family: 'Rubik Distressed', cursive;
 }
 
 .ImagenesTrofeos {
-    box-align: left;
+    margin: auto;
     height: auto;
-    width: 30cm;
-    vertical-align: left;
+    width: 50vh;
+    vertical-align: middle;
 }
 
 .Informaciontrofeos {
-    color: #6D4085;
+    color: #576e49;
     font-weight: normal;
     text-align: left;
     font-size: 23px;
@@ -63,11 +66,11 @@ body {
 }
 
 .SubTrofeo {
-    color: #4EA351;
+    color: #869572;
     background-color: none;
 }
 
-#Contenedor{
+#Contenedor {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -75,40 +78,45 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-#contenido{
+
+#contenido {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     flex-wrap: wrap;
 }
-#contenido div{
+
+#contenido div {
     display: grid;
     place-items: center;
     padding: 10px;
 }
-#actualizacion{
+
+#actualizacion {
     text-align: center;
-    color: #fff;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    color: #ccc39f;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em black, 0 0 0.1em #560a86, 0 10px 3px #333;
     font-size: 40px;
     padding: 30px 10px;
-    margin-top: -550px;
+    margin-top: -350px;
 }
+
 .TiempoNum {
     display: grid;
     place-items: center;
-    border: solid 5px #8609F5   ;
+    border: solid 5px #869572;
     box-shadow: inset 0 0 10px #7623A1, 0 0 10px #7623A1;
     height: 100px;
     width: 100px;
-    color: #DC7633;
+    color: #285635;
 }
-.tiempo{
+
+.tiempo {
     display: block;
     padding: 10px;
     text-align: center;
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
-    color: #33A226;
+    color: #d8dabc;
     font-size: 1.5rem;
     font-weight: 400;
 }

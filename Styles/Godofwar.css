@@ -1,24 +1,29 @@
 body {
-    background-color: black;
+    background-color: #ffff91;
 }
 
-#Nombrepagina {
+#NombrepaginaG {
     translate: -4px;
     text-align: center;
     font: 60 60px 'Pacifico';
     letter-spacing: -5px;
-    color: #fee;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    text-shadow: 0 0px 10px, 0 0 1em black, 0 0 0.5em black, 0 0 0.1em #560a86, 0 10px 3px #333;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#LinkNomPagina {
+    color: #65c0fe;
+    text-decoration: none;
 }
 
 #Nombrejuego {
     translate: -4px;
     text-align: center;
     font: 60 60px 'Pacifico';
-    color: #4DB6C6;
+    color: #ffffd8;
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
     letter-spacing: 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 #imgRagnarok {
@@ -31,25 +36,27 @@ body {
     border-style: solid;
     border-color: #4DB6C6;
     padding: 40px;
+    margin-top: -280px;
 }
 
 #PalabraTrofeos {
     text-align: center;
-    color: aquamarine;
-    text-shadow: 0 0px 10px, 0 0 1em #4DB6C6, 0 0 0.5em #4DB6C6, 0 0 0.1em #4DB6C6, 0 10px 3px #333;
+    color: #ff1b1c;
+    text-shadow: 0 0px 10px, 0 0 1em white, 0 0 0.5em #ff8400, 0 0 0.1em #ff8400, 0 10px 3px gray;
     font-size: 60px;
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .ImagenesTrofeos {
     margin: auto;
     height: auto;
     width: 50vh;
-    vertical-align:middle;
-
+    vertical-align: middle;
 }
 
 .Informaciontrofeos {
-    color: #4DB6C6;
+    color: #ff8400;
     font-weight: normal;
     text-align: left;
     font-size: 23px;
@@ -58,11 +65,11 @@ body {
 
 .SubTrofeo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: #ff1b1c;
     background-color: none;
 }
 
-#Contenedor{
+#Contenedor {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -70,39 +77,45 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-#contenido{
+
+#contenido {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     flex-wrap: wrap;
 }
-#contenido div{
+
+#contenido div {
     display: grid;
     place-items: center;
     padding: 10px;
 }
-#actualizacion{
+
+#actualizacion {
     text-align: center;
-    color: #fff;
+    color: #ffffd8;
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
     font-size: 40px;
     padding: 30px 10px;
+    margin-top: -350px;
 }
+
 .TiempoNum {
     display: grid;
     place-items: center;
-    border: solid 5px #48A5BB;
+    border: solid 5px #ffffd8;
     box-shadow: inset 0 0 10px #7623A1, 0 0 10px #7623A1;
     height: 100px;
     width: 100px;
-    color: orange;
+    color: #ff1b1c;
 }
-.tiempo{
+
+.tiempo {
     display: block;
     padding: 10px;
     text-align: center;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
-    color: #8A23CA;
+    text-shadow: 0 0px 10px, 0 0 1em white, 0 0 0.5em white, 0 0 0.1em #560a86, 0 10px 3px #333;
+    color: #ff1b1c;
     font-size: 1.5rem;
     font-weight: 400;
 }

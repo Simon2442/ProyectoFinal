@@ -1,29 +1,29 @@
 body {
-    background-color: black;
+    background-color: #ffcd95;
 }
 
-#CuentaRegresiva {
-    text-align: center;
-    color: white;
-}
-
-#Nombrepagina {
+#NombrepaginaF {
     translate: -4px;
     text-align: center;
     font: 60 60px 'Pacifico';
     letter-spacing: -5px;
-    color: #fee;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    text-shadow: 0 0px 10px, 0 0 1em black, 0 0 0.5em black, 0 0 0.1em #560a86, 0 10px 3px #333;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#LinkNomPagina {
+    color: #8a98d2;
+    text-decoration: none;
 }
 
 #Nombrejuego {
     translate: -4px;
     text-align: center;
     font: 60 60px 'Pacifico';
-    color: violet;
+    color: #dfc200;
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
     letter-spacing: 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Bungee', cursive;
     font-size: 60px;
 }
 
@@ -35,26 +35,27 @@ body {
 #ContenidoFifa23 {
     height: auto;
     border-style: solid;
-    border-color: red;
+    border-color: #087bca;
     padding: 40px;
 }
 
 #PalabraTrofeos {
     text-align: center;
-    color: aquamarine;
-    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
+    color: #087bca;
+    text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em white, 0 0 0.1em #560a86, 0 10px 3px white;
     font-size: 60px;
+    font-family: 'Bungee', cursive;
 }
 
 .ImagenesTrofeos {
-    box-align: left;
+    margin: auto;
     height: auto;
-    width: 30cm;
-    vertical-align: left;
+    width: 50vh;
+    vertical-align: middle;
 }
 
 .Informaciontrofeos {
-    color: white;
+    color: #08b233;
     font-weight: normal;
     text-align: left;
     font-size: 23px;
@@ -62,7 +63,7 @@ body {
 }
 
 .SubTrofeo {
-    color: aqua;
+    color: #ff64ae;
     background-color: none;
 }
 
@@ -90,7 +91,7 @@ body {
 
 #actualizacion {
     text-align: center;
-    color: #fff;
+    color: #dfc200;
     text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86, 0 10px 3px #333;
     font-size: 40px;
     padding: 30px 10px;
@@ -100,10 +101,10 @@ body {
     display: grid;
     place-items: center;
     border: solid 5px #7623A1;
-    box-shadow: inset 0 0 5px #83CCDB, 0 0 5px #83CCDB;
+    box-shadow: inset 0 0 5px #087bca, 0 0 5px #087bca;
     height: 100px;
     width: 100px;
-    color: orange;
+    color: #087bca;
 }
 
 .tiempo {
